@@ -1,0 +1,123 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+header{
+    background-color: aqua;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.title{
+    font-size: 26px;
+}
+
+section{
+    padding:20px;
+    background-image: url('../images/people.jpg');
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+.formContainer{
+
+    max-width: 230px;
+    background-color: #FFFFFFBB;
+    padding:20px;
+    float:right;
+
+}
+h2{
+    font-size: 16px;
+}
+.mb{
+
+    margin-bottom: 15px;
+
+}
+
+input, select{
+
+    width:100%;
+    box-sizing: border-box;
+    padding:10px;
+    border:none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    color:#FFFFFFBB;
+    background-color: aqua;
+    font-weight: bolder;
+}
+
+select{
+
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+
+    background-image: url('../images/arrow.jpg');
+    background-repeat: no-repeat;
+
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+
+}
+footer{
+    background-color: #202121;
+    padding: 40px;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px){
+
+    
+
+}
+
+.picture{
+    width: 160px;
+
+}
+.discription{
+    display: inline-block;
+    color:#FFFFFFBB;
+    text-align: left;
+    max-width: 40%;
+    margin-left: 40px;
+}
+
+.discription p, .discription h3{
+    margin-bottom: 20px;
+}
+
+/* Asterisco serve para aplicar em tudo /*
+/* border-box para alinhar as caixas/*
+/* margin-bottom usado para dar espaco entre os quadros/*  
+/* o input acima com colchete adiciona o estilo apenas ao submit, ou seja o colchete e usado para adicionar coisas especificas a coisa selecionada/* 
+/* overflow preenche a imagem inteiro/*
+/* propriedades nonstandard sinaliza que nao e pra todos os navegadores/*
+/*  background-position-x: calc(100% - 10px);
+    background-position-y: center;
+
+    ou
+
+    background-position-x: calc(100% - 10px)  center;
+
+    defino a posicao de algum elemento (no caso a seta) com base nos eixos x e y no background
+/* 
+
